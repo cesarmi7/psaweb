@@ -86,9 +86,9 @@
     <section id="join" class="join-section">
         <h2 data-key="become">Become a Member</h2>
         <p data-key="ready">Ready to join us? Fill out the form below and become part of our vibrant community!<br></p>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
+        <form name="contact" method="get" data-netlify="true" onsubmit="submit">
+            <input type="text" placeholder="Your Name" required name="name">
+            <input type="email" placeholder="Your Email" required name="email">
             <button type="submit" class="btnn" data-key="sign">Sign Up</button>
         </form>
     </section>
