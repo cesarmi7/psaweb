@@ -7,6 +7,24 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+    const form = document.querySelector('form');
+    const joinSection = document.querySelector('.join-section');
+
+    form.addEventListener('submit', (event) => {
+        event.preventDefault();
+
+        // Replace form with a thank-you message
+        joinSection.innerHTML = `
+            <h2>Thank you!</h2>
+            <p>We have received your information, we will get in contact with you!</p>
+        `;
+
+        // Optionally, you can scroll to the join section after submission
+        joinSection.scrollIntoView({ behavior: 'smooth' });
+    });
+});
+
 const header = document.querySelector("header");
 
 window.addEventListener("scroll", function(){
