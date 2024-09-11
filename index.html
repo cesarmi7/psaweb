@@ -86,10 +86,11 @@
     <section id="join" class="join-section">
         <h2 data-key="become">Become a Member</h2>
         <p data-key="ready">Ready to join us? Fill out the form below and become part of our vibrant community!<br></p>
-        <form name="contact" method="post" data-netlify="true" onsubmit="submit" netlify>
+        <form name="contact" method="post" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact">
             <input type="text" placeholder="Your Name" required name="name">
             <input type="email" placeholder="Your Email" required name="email">
-            <button type="submit" class="btnn" data-key="sign">Sign Up</button>
+            <button type="submit" class="btnn">Sign Up</button>
         </form>
     </section>
 
