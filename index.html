@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSA</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <a href="index.html" class="logo">
+            <span class="full-logo">
+                <span class="logo-part-red">Peruvian </span>
+                <span class="logo-part-white">Student</span>
+                <span class="logo-part-red"> Assosiation</span>
+            </span>
+            <span class="small-logo">
+                <span class="logo-part-red">P</span>
+                <span class="logo-part-white">S</span>
+                <span class="logo-part-red">A</span>
+            </span>
+        </a>        
+        <ul class="navbar">
+            <li><a data-key="home" href="#home">Home</a></li>
+            <li><a data-key="about" class="a" href="#about">About Us</a></li>
+            <li><a data-key="events" class = "t" href="#events">Events</a></li>
+            <li><a data-key="join" class="p" href="#join">Join Us</a></li>
+            <div class="language-switcher">
+                <div class="imagen">
+                    <a onclick="changeLanguageEn()"><img src="img/english.png"></a>
+                </div>
+                <div class="imagen">
+                    <a onclick="changeLanguageEs()"><img src="img/peru.png"></a>
+                </div>
+            </div>
+        </ul>
+        <div class="h-right">
+            <div class="h-right2">
+                <a data-key="contactus" class="a" href="#contact">Contact Us</a>
+                <a href="https://www.instagram.com/cesar.mc7" target="_blank"><i class="ri-instagram-line"></i></a>
+                <a href="https://chat.whatsapp.com/GmtKnluzknfJgp4p7TY0pA" target="_blank"><i class="ri-whatsapp-line"></i></a>
+            </div>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <h2 data-key="celebrating">Celebrating Peruvian Culture at Hunter College</h2>
+        <p data-key="joinourmission">Join us in our mission to share the beauty of Peruvian culture with the Hunter College community.</p>
+        <a data-key="becomebutton" href="#join" class="btn">Become a Member</a>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section">
+        <div class="about-img">
+            <img src="img/ninos.jpeg">
+        </div>
+        <div class="about-text">
+            <h2 data-key="aboutustitle"><span>About Us</span></h2>
+            <p data-key="aboutuscontent">
+                We are a passionate group of students dedicated to celebrating and sharing Peruvian 
+                culture at Hunter College. From food festivals to cultural dance workshops, we strive 
+                to build a strong community through shared experiences.
+                <br>
+                <br>
+                And we love to eat!!!
+            </p>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="events-section">
+        <h2 data-key="upcomingevents">Upcoming Events</h2>
+        <h3 data-key="nothingyet">Nothing here yetxd</h3>
+    </section>
+
+    <!-- Join Us Section -->
+    <section id="join" class="join-section">
+        <h2 data-key="become">Become a Member</h2>
+        <p data-key="ready">Ready to join us? Fill out the form below and become part of our vibrant community!<br></p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <button type="submit" class="btnn" data-key="sign">Sign Up</button>
+        </form>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="contact-section">
+        <h2 data-key="contactuss">Contact Us</h2>
+        <p data-key="ifyou">If you have any questions or would like more information, feel free to reach out!</p>
+
+        <div class="contact-details">
+            <div class="board-member">
+                <img src="img/cesar.png" alt="Board President">
+                <h3>Cesar Iglesias</h3>
+                <h4 data-key="president">President</h4>
+                <p>
+                    <a href="https://www.instagram.com/cesar.mc7"><i class="ri-instagram-fill"></i></a><span> | </span>
+                    <a href="https://www.linkedin.com/in/cesar-iglezias/"><i class="ri-linkedin-fill"></i></a><span> | </span>
+                    <a href="mailto:cesar.llaqueiglesias76@myhunter.cuny.edu"><i class="ri-mail-fill"></i></a>
+                </p>            
+            </div>
+            <div class="board-member">
+                <img src="img/sofia.png" alt="Vice President">
+                <h3>Sofia Zevallos</h3>
+                <h4 data-key="vicepresident">Vice President</h4>
+                <p>
+                    <a href="https://www.linkedin.com/in/sofia-zevallos-9603svz/"><i class="ri-linkedin-fill"></i></a><span> | </span>
+                    <a href="mailto:sofia.zevallos75@myhunter.cuny.edu"><i class="ri-mail-fill"></i></a>
+                </p>            
+            </div>
+            <div class="board-member">
+                <img src="img/jose.jpeg" alt="Treasurer">
+                <h3>Jose Vazques</h3>
+                <h4 data-key="treasurer">Treasurer</h4>
+                <p>
+                    <a href="https://www.instagram.com/josay.v?igsh=MTN6MXp3MHN4YmNtMQ=="><i class="ri-instagram-fill"></i></a><span> | </span>
+                    <a href="mailto:jose.vasquez27@myhunter.cuny.edu"><i class="ri-mail-fill"></i></a>
+                </p>            
+            </div>
+            <div class="board-member">
+                <img src="img/caroline.png" alt="Secretary">
+                <h3>Caroline Chiok</h3>
+                <h4 data-key="secretary">Secretary</h4>
+                <p>
+                    <a href="https://www.instagram.com/caroliza14?igsh=ZmF4cms2MnFwYjFs"><i class="ri-instagram-fill"></i></a><span> | </span>
+                    <a href="mailto:caroline.chiok92@myhunter.cuny.edu"><i class="ri-mail-fill"></i></a>
+                </p>            
+            </div>
+            <!-- Add more board members similarly -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p data-key="derechos">&copy; 2024 Peruvian Student Association - Hunter College. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+
