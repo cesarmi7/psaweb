@@ -3,27 +3,27 @@ document.addEventListener('DOMContentLoaded', () => {
     
     form.addEventListener('submit', (event) => {
         event.preventDefault();
-        alert("Thank you for joining the Peruvian Student Association!");
+        //alert("Thank you for joining the Peruvian Student Association!");
     });
 });
 
-// document.addEventListener('DOMContentLoaded', () => {
-//     const form = document.querySelector('form');
-//     const joinSection = document.querySelector('.join-section');
+document.addEventListener('DOMContentLoaded', () => {
+    const form = document.querySelector('form');
+    const joinSection = document.querySelector('.join-section');
 
-//     form.addEventListener('submit', (event) => {
-//         event.preventDefault();
+    form.addEventListener('submit', (event) => {
+        event.preventDefault();
 
-//         // Replace form with a thank-you message
-//         joinSection.innerHTML = `
-//             <h2>Thank you!</h2>
-//             <p>We have received your information, we will get in contact with you!</p>
-//         `;
+        // Replace form with a thank-you message
+        joinSection.innerHTML = `
+            <h2>Thank you!</h2>
+            <p>We have received your information, we will get in contact with you!</p>
+        `;
 
-//         // Optionally, you can scroll to the join section after submission
-//         joinSection.scrollIntoView({ behavior: 'smooth' });
-//     });
-// });
+        // Optionally, you can scroll to the join section after submission
+        joinSection.scrollIntoView({ behavior: 'smooth' });
+    });
+});
 
 const header = document.querySelector("header");
 

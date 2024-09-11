@@ -279,7 +279,7 @@ section{
     font-weight: 500;
     line-height: 30px;
     color: #1a1a1a;
-    margin-bottom: 35px;
+    margin-bottom: 6px;
 }
 
 .join-section form {
@@ -463,7 +463,7 @@ html {
     }
     .navbar a{
         display: block;
-        color: #979797;
+        color: #d9d9d9;
         padding: 0;
         margin: 0px 0px 40px 0px;
         font-size: 2.2rem;
@@ -471,6 +471,7 @@ html {
     }
     .navbar.open{
         left: 0;
+        background-color: hsl(0, 0%, 7%);
     }
     .box2 h4{
         bottom: 40px;
