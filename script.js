@@ -14,13 +14,16 @@ document.addEventListener('DOMContentLoaded', () => {
     form.addEventListener('submit', (event) => {
         event.preventDefault();
 
-        // Replace form with a thank-you message
+        // Detect current language
+        const message = translations["thankyou"][currentLanguage];  // Retrieve translation based on the selected language
+
+        // Replace form with the thank-you message in the correct language
         joinSection.innerHTML = `
-            <h2>Thank you!</h2>
-            <p>We have received your information, we will get in contact with you!</p>
+            <h2>${translations["thankyou_title"][currentLanguage] || "Thank you!"}</h2>
+            <p>${message}</p>
         `;
 
-        // Optionally, you can scroll to the join section after submission
+        // Optionally, scroll to the join section after submission
         joinSection.scrollIntoView({ behavior: 'smooth' });
     });
 });
@@ -77,6 +80,14 @@ function changeLanguageEs() {
     }
 }
 const translations = {
+    "thankyou": {
+        "en": "Thank you for joining the Peruvian Student Association! We encourage you to join our WhatsApp group chat and follow us on Instagram!",
+        "es": "¡Gracias por unirte a Peruvian Student Association! Te animamos a unirte a nuestro grupo de WhatsApp y seguirnos en Instagram."
+    },
+    "thankyou_title": {
+        "en": "Thank you!",
+        "es": "¡Gracias!"
+    },
     "home": {
         "en": "Home",
         "es": "Inicio"
@@ -107,7 +118,7 @@ const translations = {
     },
     "becomebutton": {
         "en": "Become a Member",
-        "es": "Hazte Miembro"
+        "es": "Vuélvete un Miembro"
     },
     "aboutustitle": {
         "en": "<span>About Us</span>",
@@ -127,11 +138,11 @@ const translations = {
     },
     "become": {
         "en": "Become a Member",
-        "es": "Hazte Miembro"
+        "es": "Vuélvete un Miembro"
     },
     "ready": {
-        "en": "Ready to join us? Fill out the form below and become part of our vibrant community!",
-        "es": "¿Listo para unirte? Rellena el formulario a continuación y sé parte de nuestra vibrante comunidad."
+        "en": "Ready to join us? Fill out the form below and become part of our vibrant community!<br><br>",
+        "es": "¿Listo para unirte? Rellena el formulario a continuación y sé parte de nuestra vibrante comunidad.<br><br>"
     },
     "sign": {
         "en": "Sign Up",
