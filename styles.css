@@ -487,9 +487,3 @@ html {
         gap: 20px;
     }
 }
-/* For extra small screens (below 500px), display one member per row */
-@media (max-width: 500px) {
-    .contact-details {
-        grid-template-columns: 1fr;
-    }
-}

@@ -81,8 +81,8 @@ function changeLanguageEs() {
 }
 const translations = {
     "thankyou": {
-        "en": "Thank you for joining the Peruvian Student Association! We encourage you to join our WhatsApp group chat and follow us on Instagram!",
-        "es": "¡Gracias por unirte a Peruvian Student Association! Te animamos a unirte a nuestro grupo de WhatsApp y seguirnos en Instagram."
+        "en": "Thank you for joining the Peruvian Student Association! We encourage you to join our WhatsApp group chat and follow us on Instagram!<br>Links are located next to the 'Contact Us' button; you can check them by simply clicking on the symbol",
+        "es": "¡Gracias por unirte a Peruvian Student Association! ¡Te animamos a unirte a nuestro grupo de WhatsApp y seguirnos en Instagram!<br>Los enlaces están ubicados junto al botón de 'Contactos'; puedes verificarlos haciendo clic simplemente en el símbolo"
     },
     "thankyou_title": {
         "en": "Thank you!",
