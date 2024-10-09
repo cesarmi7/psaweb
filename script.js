@@ -132,6 +132,14 @@ const translations = {
         "en": "Upcoming Events",
         "es": "Próximos Eventos"
     },
+    "kickoff_eventp": {
+        "en": "Event on: October 18, 2024<br>15:00 PM - 17:00 PM",
+        "es": "Evento el: 18 de Octubre de 2024<br>15:00 PM - 17:00 PM"
+    },
+    "kickoff_eventl": {
+        "en": "Location: TH 205",
+        "es": "Ubicación: TH 205"
+    },
     "nothingyet": {
         "en": "Nothing here yet",
         "es": "Aún no hay nada"
@@ -141,12 +149,12 @@ const translations = {
         "es": "Vuélvete un Miembro"
     },
     "ready": {
-        "en": "Ready to join us? Fill out the form below and become part of our vibrant community!<br><br>",
-        "es": "¿Listo para unirte? Rellena el formulario a continuación y sé parte de nuestra vibrante comunidad.<br><br>"
+        "en": "It would make us very happy if you joined us in this movement to spread our beautiful culture.<br>No matter where you are from, you are totally invited to be part of the family!<br>Please complete the form so we can get your information.<br><br>",
+        "es": "Nos haría muy felices si te unieras a nosotros en este movimiento para difundir nuestra hermosa cultura.<br>No importa de dónde seas, ¡estás totalmente invitado a ser parte de la familia!<br>Por favor, completa el formulario para que podamos obtener tu información.<br><br>"
     },
-    "sign": {
-        "en": "Sign Up",
-        "es": "Regístrate"
+    "form": {
+        "en": "Form",
+        "es": "Formulario"
     },
     "contactuss": {
         "en": "Contact Us",
