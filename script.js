@@ -133,8 +133,8 @@ const translations = {
         "es": "Próximos Eventos"
     },
     "kickoff_eventp": {
-        "en": "Event on: October 18, 2024<br>15:00 PM - 17:00 PM",
-        "es": "Evento el: 18 de Octubre de 2024<br>15:00 PM - 17:00 PM"
+        "en": "Event on: November 21, 2024<br>17:00 PM - 19:00 PM",
+        "es": "Evento el: 21 de Noviembre de 2024<br>17:00 PM - 19:00 PM"
     },
     "kickoff_eventl": {
         "en": "Location: TH 205",
