@@ -133,12 +133,12 @@ const translations = {
         "es": "Próximos Eventos"
     },
     "kickoff_eventp": {
-        "en": "Event on: October 18, 2024<br>15:00 PM - 17:00 PM",
-        "es": "Evento el: 18 de Octubre de 2024<br>15:00 PM - 17:00 PM"
+        "en": "Event on: March 14, 2025<br>14:00 PM - 16:00 PM",
+        "es": "Evento el: 14 de Marzo del 2025<br>14:00 PM - 16:00 PM"
     },
     "kickoff_eventl": {
-        "en": "Location: TH 205",
-        "es": "Ubicación: TH 205"
+        "en": "Location: MET Museum | 1000 5th Ave, New York, NY 10028",
+        "es": "Ubicación: MET Museum | 1000 5th Ave, New York, NY 10028"
     },
     "nothingyet": {
         "en": "Nothing here yet",
