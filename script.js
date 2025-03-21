@@ -120,6 +120,10 @@ const translations = {
         "en": "Become a Member",
         "es": "Vuélvete un Miembro"
     },
+    "eventsbutton": {
+        "en": "Next Event",
+        "es": "Próximo Evento"
+    },
     "aboutustitle": {
         "en": "<span>About Us</span>",
         "es": "<span>Sobre Nosotros</span>"

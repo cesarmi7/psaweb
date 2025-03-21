@@ -197,7 +197,10 @@ nav h1 {
     cursor: pointer;
     text-decoration: none;
 }
-
+.hero-buttons {
+    display: flex;
+    gap: 15px; /* Space between buttons */
+}
 .btnnn:hover {
     transform: translateY(3px);
     border: 2px solid #fff; /* White border on hover */
@@ -472,6 +475,11 @@ html {
 @media (max-width: 800px){
     .about-section{
         grid-template-columns: 1fr;
+    }
+    .hero-buttons {
+        flex-direction: column; /* Stack buttons vertically */
+        gap: 15px; /* Reduce space between stacked buttons */
+        align-items: center; /* Center align buttons */
     }
 }
 @media (max-width: 455px){
