@@ -137,12 +137,12 @@ const translations = {
         "es": "Próximos Eventos"
     },
     "kickoff_eventp": {
-        "en": "Event on: March 26, 2025<br>2:30 PM - 3:45 PM",
-        "es": "Evento el: 26 de Marzo del 2025<br>2:30 PM - 3:45 PM"
+        "en": "Event on: May 6, 2025<br>3:00 PM",
+        "es": "Evento el: 6 de Mayo del 2025<br>3:00 PM"
     },
     "kickoff_eventl": {
-        "en": "Location: Location: 700TH | Thomas Hunter Building",
-        "es": "Ubicación: Location: 700TH | Thomas Hunter Building"
+        "en": "Location: Location: 205TH | Thomas Hunter Building",
+        "es": "Ubicación: Location: 205TH | Thomas Hunter Building"
     },
     "nothingyet": {
         "en": "Nothing here yet",
