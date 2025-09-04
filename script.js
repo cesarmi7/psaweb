@@ -137,12 +137,12 @@ const translations = {
         "es": "Próximos Eventos"
     },
     "kickoff_eventp": {
-        "en": "Event on: May 6, 2025<br>3:00 PM",
-        "es": "Evento el: 6 de Mayo del 2025<br>3:00 PM"
+        "en": "Event on: Sept. 13th, 2025<br>10:30 AM",
+        "es": "Evento el: 13 de Septiembre del 2025<br>10:30 AM"
     },
     "kickoff_eventl": {
-        "en": "Location: Location: 205TH | Thomas Hunter Building",
-        "es": "Ubicación: Location: 205TH | Thomas Hunter Building"
+        "en": "Location: MET Museum 1000 5th Ave, New York, NY, 10028",
+        "es": "Ubicación: MET Museum 1000 5th Ave, New York, NY, 10028"
     },
     "nothingyet": {
         "en": "Nothing here yet",
