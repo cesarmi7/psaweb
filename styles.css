@@ -285,25 +285,33 @@ section{
 }
 
 /* Join Us Section */
-.join-section {
-    padding: 60px 20px;
-    background-color:#717171;
-    text-align: center;
+.member-img img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
 }
 
-.join-section h2 {
+.join-section {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap:5rem;
+    background-color: hsl(0, 0%, 7%);
+}
+
+.member-text h2 {
     font-weight: 800;
     line-height: 1.2;
     margin-bottom: 25px;
     text-transform: uppercase;
-    color: #1a1a1a;
+    color: #ffffff;
 }
 
-.join-section p {
+.member-text p {
     font-size: 1.2rem;
     font-weight: 500;
     line-height: 30px;
-    color: #1a1a1a;
+    color: #ffffff;
     margin-bottom: 6px;
 }
 
@@ -313,6 +321,7 @@ section{
     gap: 10px;
     max-width: 400px;
     margin: 0 auto;
+    align-items: center;
 }
 
 .join-section form input,
@@ -463,23 +472,26 @@ html {
 }
 @media (max-width: 1310px) {
     .logo .full-logo {
-        display: none; /* Hide full logo on smaller screens */
+        display: none; 
     }
 
     .logo .small-logo {
         padding-top: 5px;
-        display: inline; /* Show "PSA" on smaller screens */
-        font-size: 30px; /* Adjust font size for PSA */
+        display: inline; 
+        font-size: 30px; 
     }
 }
 @media (max-width: 800px){
     .about-section{
         grid-template-columns: 1fr;
     }
+    .join-section{
+        grid-template-columns: 1fr;
+    }
     .hero-buttons {
-        flex-direction: column; /* Stack buttons vertically */
-        gap: 15px; /* Reduce space between stacked buttons */
-        align-items: center; /* Center align buttons */
+        flex-direction: column;
+        gap: 15px;
+        align-items: center; 
     }
 }
 @media (max-width: 455px){

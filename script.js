@@ -129,8 +129,8 @@ const translations = {
         "es": "<span>Sobre Nosotros</span>"
     },
     "aboutuscontent": {
-        "en": "We are a passionate group of students dedicated to celebrating and sharing Peruvian culture at Hunter College. From food festivals to cultural dance workshops, we strive to build a strong community through shared experiences. <br><br>And we love to eat!!!",
-        "es": "Somos un grupo apasionado de estudiantes dedicados a celebrar y compartir la cultura peruana en Hunter College. Desde festivales de comida hasta talleres de danza cultural, nos esforzamos por construir una comunidad fuerte a través de experiencias compartidas. <br><br>¡Y nos encanta comer!"
+        "en": "<b>The Peruvian Student Association</b> brings together Peruvian and non-Peruvian students at Hunter College and across CUNY.Through food festivals, cultural dance workshops, and more, we build community by sharing the beauty of Peruvian culture while serving as a connector and encouraging other campuses to create their own PSAs.<br><br>And yes. We all <b>LOVE</b> Peruvian food!",
+        "es": "<b>Peruvian Student Association</b> reúne a estudiantes peruanos y no peruanos de Hunter College y de todo CUNY. A través de festivales de comida, talleres de danza cultural y más, construimos comunidad al compartir la belleza de la cultura peruana, mientras servimos de puente y animamos a otros campus a crear sus propios capítulos de la PSA.<br><br>¡Y sí, <b>AMAMOS</b> la comida peruana!"
     },
     "upcomingevents": {
         "en": "Upcoming Events",
