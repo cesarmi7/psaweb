@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSA</title>
+    <link rel="icon" href="../img/logo.PNG">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <a href="../index.html" class="logo">
+            <span class="full-logo">
+                <span class="logo-part-red">Peruvian </span>
+                <span class="logo-part-white">Student</span>
+                <span class="logo-part-red"> Assosiation</span>
+            </span>
+            <span class="small-logo">
+                <span class="logo-part-red">P</span>
+                <span class="logo-part-white">S</span>
+                <span class="logo-part-red">A</span>
+            </span>
+        </a>        
+        <ul class="navbar">
+            <li><a data-key="home" href="../index.html#home">Home</a></li>
+            <li><a data-key="about" class="a" href="../index.html#about">About Us</a></li>
+            <li><a data-key="events" class = "t" href="../index.html#events">Events</a></li>
+            <li><a data-key="join" class="p" href="../index.html#join">Join Us</a></li>
+            <div class="language-switcher">
+                <div class="imagen">
+                    <a onclick="changeLanguageEn()"><img src="../img/english.png"></a>
+                </div>
+                <div class="imagen">
+                    <a onclick="changeLanguageEs()"><img src="../img/peru.png"></a>
+                </div>
+            </div>
+        </ul>
+        <div class="h-right">
+            <div class="h-right2">
+                <a data-key="contactus" class="a" href="../index.html#contact">Contact Us</a>
+                <a href="https://chat.whatsapp.com/GmtKnluzknfJgp4p7TY0pA" target="_blank"><i class="ri-whatsapp-line"></i></a>
+                <a href="https://www.instagram.com/psa.hunter?igsh=enJ1Z3h1MmJuNWhl" target="_blank"><i class="ri-instagram-line"></i></a>
+            </div>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+    <!-- History Section -->
+    <section class="h-section">
+        <div class="center-text">
+            <h2 data-key="history">HISTORY</h2>
+        </div>
+    </section>
+
+    <!-- History of the Logo Section -->
+    <section id="historylogo" class="about-section">
+        <div class="about-img">
+            <img src="../img/logo.PNG">
+        </div>
+        <div class="about-text">
+            <h2 data-key="historylogotitle"><span>History of the Logo</span></h2>
+            <p data-key="historylogocontent">
+                The logo was designed by the first president and founder, Cesar Iglesias, 
+                together with the first vice president, Sofia Zevallos. 
+                It seeks to unite in a single emblem symbols widely recognized across Peru. 
+                At the center is a tumi, a ceremonial knife native to the northern coast, 
+                present in the Chimú culture, 
+                chosen to represent the Coast. It is framed by the Andean trilogy: the serpent (underworld), 
+                the puma (human world), and the condor (world of the gods or the sky), which, 
+                when arranged, form a chakana, an ancestral symbol that connects the three worlds and, 
+                at the same time, encompasses the Coast, Highlands, and Jungle of the Tahuantinsuyo.
+            </p>
+        </div>
+    </section>
+
+    <!-- History of the Mascot Section -->
+    <section id="events" class="events-section">
+        <div class="event-text">
+            <h2 data-key="historymascottitle"><span>History of the Mascot</span></h2>
+            <p data-key="historymascotcontent">
+                The Peruvian Student Association is proud to be the first club at Hunter College 
+                with an official mascot. Its name is Tumi, and, as the name suggests, 
+                it is inspired by the tumi, a ceremonial knife from the pre-Inca cultures of Peru's 
+                northern coast. The mascot was chosen because its gold and turquoise colors reflect the country's
+                cultural and natural richness, and also as a nod to the founding president, 
+                who is from Trujillo.
+            </p>
+        </div>
+        <div class="event-img">
+            <img src="../img/Heart.png">
+        </div>
+    </section>
+
+    <!-- Join Us Section -->
+    <section id="join" class="join-section">
+        <div class="about-img">
+            <img src="../img/joseandcesar.jpg">
+        </div>
+        <div class="about-text">
+            <h2 data-key="historyideatitle"><span>History of the Idea</span></h2>
+            <p data-key="historyideacontent">
+                The idea was born with Jose Vasquez, a Peruvian who moved to New York 
+                at age two and wanted to reconnect with his culture. 
+                After meeting Cesar Iglesias and noticing that Hunter College 
+                lacked representation for the Peruvian community, they decided to 
+                bring others on board and bring to life the Peruvian Student Association 
+                at Hunter College, the first Peruvian club in the entire CUNY system. 
+                <br>
+                <br>
+                This project seeks to inspire other campuses and more Peruvians to 
+                celebrate and strengthen our culture and community.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="contact-section">
+        <h2 data-key="contactuss"><span>Founders</span></h2>
+        <p data-key="ifyou">If you have any questions or would like more information, feel free to reach out!</p>
+
+        <div class="contact-details">
+            <div class="board-member">
+                <img src="../img/cesar.png" alt="Board President">
+                <h3>Cesar Iglesias</h3>
+                <h4 data-key="president">President</h4>
+                <p>
+                    <a href="https://www.instagram.com/cesar.mc7"><i class="ri-instagram-fill"></i></a><span> | </span>
+                    <a href="https://www.linkedin.com/in/cesar-iglezias/"><i class="ri-linkedin-fill"></i></a><span> | </span>
+                    <a href="mailto:cesar.iglezias@gmail.com"><i class="ri-mail-fill"></i></a>
+                </p>            
+            </div>
+            <div class="board-member">
+                <img src="../img/sofia.png" alt="Vice President">
+                <h3>Sofia Zevallos</h3>
+                <h4 data-key="vicepresident">Vice President</h4>
+                <p>
+                    <a href="https://www.instagram.com/spiceddill"><i class="ri-instagram-fill"></i></a><span> | </span>
+                    <a href="mailto:sofiazevallos50@gmail.com"><i class="ri-mail-fill"></i></a>
+                </p>            
+            </div>
+            <div class="board-member">
+                <img src="../img/jose.jpeg" alt="Treasurer">
+                <h3>Jose Vazques</h3>
+                <h4 data-key="treasurer">Treasurer</h4>
+                <p>
+                    <a href="https://www.instagram.com/josay.v?igsh=MTN6MXp3MHN4YmNtMQ=="><i class="ri-instagram-fill"></i></a><span> | </span>
+                    <a href="mailto:treesjose22@gmail.com"><i class="ri-mail-fill"></i></a>
+                </p>            
+            </div>
+            <div class="board-member">
+                <img src="../img/caroline.png" alt="Secretary">
+                <h3>Caroline Chiok</h3>
+                <h4 data-key="secretary">Secretary</h4>
+                <p>
+                    <a href="https://www.instagram.com/caroliza14"><i class="ri-instagram-fill"></i></a><span> | </span>
+                    <a href="mailto:cchiok04@gmail.com"><i class="ri-mail-fill"></i></a>
+                </p>            
+            </div>
+            <!-- Add more board members similarly -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p data-key="derechos">&copy; 2024 Peruvian Student Association - Hunter College. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -123,20 +123,20 @@ const translations = {
         "es": "<span>Sobre Nosotros</span>"
     },
     "aboutuscontent": {
-        "en": "<b>The Peruvian Student Association</b> brings together Peruvian and non-Peruvian students at Hunter College and across CUNY.Through food festivals, cultural dance workshops, and more, we build community by sharing the beauty of Peruvian culture while serving as a connector and encouraging other campuses to create their own PSAs.<br><br>And yes. We all <b>LOVE</b> Peruvian food!<br><br><a data-key='historylink' href='history/index.html' class='btnnn'>History of the Club</a>",
-        "es": "<b>Peruvian Student Association</b> reúne a estudiantes peruanos y no peruanos de Hunter College y de todo CUNY. A través de festivales de comida, talleres de danza cultural y más, construimos comunidad al compartir la belleza de la cultura peruana, mientras servimos de puente y animamos a otros campus a crear sus propios capítulos de la PSA.<br><br>¡Y sí, <b>AMAMOS</b> la comida peruana!<br><br><a data-key='historylink' href='history/index.html' class='btnnn'>Historia del Club</a>"
+        "en": "<b>The Peruvian Student Association</b> brings together Peruvian and non-Peruvian students at Hunter College and across CUNY.Through food festivals, cultural dance workshops, and more, we build community by sharing the beauty of Peruvian culture while serving as a connector and encouraging other campuses to create their own PSAs.<br><br>And yes. We all <b>LOVE</b> Peruvian food!",
+        "es": "<b>Peruvian Student Association</b> reúne a estudiantes peruanos y no peruanos de Hunter College y de todo CUNY. A través de festivales de comida, talleres de danza cultural y más, construimos comunidad al compartir la belleza de la cultura peruana, mientras servimos de puente y animamos a otros campus a crear sus propios capítulos de la PSA.<br><br>¡Y sí, <b>AMAMOS</b> la comida peruana!"
     },
     "upcomingevents": {
         "en": "<span>Upcoming Events</span>",
         "es": "<span>Próximos Eventos</span>"
     },
     "kickoff_eventp": {
-        "en": "Event on: Nov. 14th, 2025<br>11:30 AM",
-        "es": "Evento el: 14 de Noviembre del 2025<br>11:30 AM"
+        "en": "Event on: Oct. 10th, 2025<br>2:15 PM",
+        "es": "Evento el: 10 de Octubre del 2025<br>2:15 PM"
     },
     "kickoff_eventl": {
-        "en": "Location: Thomas Hunter 205, Hunter College",
-        "es": "Ubicación: Thomas Hunter 205, Hunter College"
+        "en": "Location: Hunter North 537, Hunter College",
+        "es": "Ubicación: Hunter North 537, Hunter College"
     },
     "nothingyet": {
         "en": "Nothing here yet",
@@ -153,10 +153,6 @@ const translations = {
     "form": {
         "en": "Form",
         "es": "Formulario"
-    },
-    "historylink": {
-        "en": "History of the Club",
-        "es": "Historia del Club"
     },
     "contactuss": {
         "en": "<span>Contact Us</span>",
@@ -181,6 +177,34 @@ const translations = {
     "secretary": {
         "en": "Secretary",
         "es": "Secretaria"
+    },
+    "history": {
+        "en": "HISTORY",
+        "es": "HISTORIA"
+    },
+    "historylogotitle": {
+        "en": "<span>History of the Logo</span>",
+        "es": "<span>Historia del Logotipo</span>"
+    },
+    "historylogocontent": {
+        "en": "The logo was designed by the first president and founder, Cesar Iglesias, together with the first vice president, Sofia Zevallos. It seeks to unite in a single emblem symbols widely recognized across Peru. At the center is a tumi, a ceremonial knife native to the northern coast, present in the Chimú culture, chosen to represent the Coast. It is framed by the Andean trilogy: the serpent (underworld), the puma (human world), and the condor (world of the gods or the sky), which, when arranged, form a chakana, an ancestral symbol that connects the three worlds and, at the same time, encompasses the Coast, Highlands, and Jungle of the Tahuantinsuyo.",
+        "es": "El logotipo fue diseñado por el primer presidente y fundador, Cesar Iglesias, junto con la primera vicepresidenta, Sofia Zevallos. Busca unir en un solo emblema símbolos ampliamente reconocidos en todo el Perú. En el centro hay un tumi, un cuchillo ceremonial originario de la costa norte, presente en la cultura Chimú, elegido para representar la Costa. Está enmarcado por la tríada andina: la serpiente (inframundo), el puma (mundo humano) y el cóndor (mundo de los dioses o el cielo), que, al disponerse, forman una chakana, un símbolo ancestral que conecta los tres mundos y, al mismo tiempo, abarca la Costa, Sierra y Selva del Tahuantinsuyo."
+    },
+    "historymascottitle": {
+        "en": "<span>History of the Mascot</span>",
+        "es": "<span>Historia de la Mascota</span>"
+    },
+    "historymascotcontent": {
+        "en": "The Peruvian Student Association is proud to be the first club at Hunter College with an official mascot. Its name is Tumi, and, as the name suggests, it is inspired by the tumi, a ceremonial knife from the pre-Inca cultures of Peru's northern coast. The mascot was chosen because its gold and turquoise colors reflect the country's cultural and natural richness, and also as a nod to the founding president, who is from Trujillo.",
+        "es": "La Peruvian Student Association se enorgullece de ser el primer club en Hunter College con una mascota oficial. Su nombre es Tumi y, como sugiere el nombre, está inspirada en el tumi, un cuchillo ceremonial de las culturas preincaicas de la costa norte del Perú. La mascota fue elegida porque sus colores dorado y turquesa reflejan la riqueza cultural y natural del país, y también como un guiño al presidente fundador, que es de Trujillo."
+    },
+    "historyideatitle": {
+        "en": "<span>History of the Idea</span>",
+        "es": "<span>Historia de la Idea</span>"
+    },
+    "historyideacontent": {
+        "en": "The idea was born with Jose Vasquez, a Peruvian who moved to New York at age two and wanted to reconnect with his culture. After meeting Cesar Iglesias and noticing that Hunter College lacked representation for the Peruvian community, they decided to bring others on board and bring to life the Peruvian Student Association at Hunter College, the first Peruvian club in the entire CUNY system. <br><br>This project seeks to inspire other campuses and more Peruvians to celebrate and strengthen our culture and community.",
+        "es": "La idea nació con Jose Vasquez, un peruano que se mudó a Nueva York a los dos años y quiso reconectarse con su cultura. Tras conocer a Cesar Iglesias y notar que Hunter College carecía de representación para la comunidad peruana, decidieron sumar a otras personas y dar vida a la Peruvian Student Association en Hunter College, el primer club peruano en todo el sistema CUNY. <br><br>Este proyecto busca inspirar a otros campus y a más peruanos a celebrar y fortalecer nuestra cultura y comunidad."
     },
     "derechos": {
         "en": "&copy; 2024 Peruvian Student Association - Hunter College. All Rights Reserved.",
