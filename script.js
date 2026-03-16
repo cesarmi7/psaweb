@@ -131,12 +131,12 @@ const translations = {
         "es": "<span>Próximos Eventos</span>"
     },
     "kickoff_eventp": {
-        "en": "Event on: Dec. 5th, 2025<br>12:30 AM",
-        "es": "Evento el: 5 de Diciembre del 2025<br>12:30 AM"
+        "en": "Event on: Mar. 27th, 2026<br>2:00 PM",
+        "es": "Evento el: 27 de Marzo del 2026<br>2:00 PM"
     },
     "kickoff_eventl": {
-        "en": "Location: Thomas Hunter 208-209, Hunter College",
-        "es": "Ubicación: Thomas Hunter 208-209, Hunter College"
+        "en": "Location: Thomas Hunter 105, Hunter College",
+        "es": "Ubicación: Thomas Hunter 105, Hunter College"
     },
     "nothingyet": {
         "en": "Nothing here yet",
